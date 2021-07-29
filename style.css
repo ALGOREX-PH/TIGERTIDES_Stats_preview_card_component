@@ -1,0 +1,153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.attribution{ 
+    font-size: 20px; 
+    text-align: center;
+    color: white;
+    padding-top: 120px; 
+}
+.attribution a {
+     color:#944cd2; 
+    }
+
+.background_color_navy{
+    background-color: #0c0f22;
+    width: 1536px;
+    height: 745px;
+}
+
+.side_by_side{
+    display: flex;
+}
+
+.text_card{
+    position: absolute;
+    left: 290px;
+    top: 150px;
+    background-color: #1b1938;
+    border-radius: 8px;
+    width: 490px;
+    height: 450px;
+    float: left;
+    
+}
+
+.get_insights{
+    padding-right: 120px;
+    padding-left: 40px;
+    padding-top: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.purple{
+    color: #944cd2;
+}
+
+.description{
+    padding-right: 120px;
+    padding-left: 40px;
+    padding-top: 70px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    color: #8d8aa5;
+}
+
+.wrap{
+    display: flex;
+}
+
+.companies{
+    padding-right: 0px;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+.companies_count{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.companies_text{
+    font-size: 12px;
+    font-weight: bold;
+    color: #8d8aa5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.templates{
+    padding-right: 0px;
+    padding-left: 40px;
+    padding-top: 100px;
+    
+}
+
+.templates_count{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 5;
+}
+
+.templates_text{
+    font-size: 12px;
+    font-weight: bold;
+    color: #8d8aa5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.queries{
+    padding-right: 0px;
+    padding-left: 40px;
+    padding-top: 100px;
+}
+
+.queries_count{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 5;
+}
+
+.queries_text{
+    font-size: 12px;
+    font-weight: bold;
+    color: #8d8aa5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.picture_1{
+    position: absolute;
+    top: 150px;
+    padding-left: 765px;
+    border-radius: 8px;
+    width: 490px;
+    height: 450px;
+}
+
+.picture_tint{
+    background: #350235;
+    width: 490px;
+    height: 450px;
+    border-radius: 0px 8px 8px 0px; 
+}
+
+.picture{
+    border-radius: 0px 8px 8px 0px;
+    width: 490px;
+    opacity:0.4;
+    height: 450px;
+}
+
