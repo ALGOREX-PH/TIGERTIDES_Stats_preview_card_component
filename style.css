@@ -145,9 +145,162 @@
 }
 
 
-/* Celpon version */
+/* Tablet Version */
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 1250px) {
+	* {
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	
+	.attribution {
+		font-size: 20px;
+		text-align: center;
+		color: white;
+		padding-top: 630px;
+	}
+	
+	.attribution a {
+		color: #944cd2;
+	}
+	
+	.side_by_side {
+		display: flex;
+	}
+	
+	.text_card {
+		position: absolute;
+		left: 5%;
+		top: 9.375em;
+		background-color: #1b1938;
+		border-radius: 8px;
+		width: 565px;
+		height: 450px;
+		float: left;
+	}
+	
+	.get_insights {
+		padding-right: 120px;
+		padding-left: 40px;
+		padding-top: 62px;
+		font-size: 32px;
+		font-weight: bold;
+		color: white;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.purple {
+		color: #944cd2;
+	}
+	
+	.description {
+		padding-right: 120px;
+		padding-left: 40px;
+		padding-top: 70px;
+		font-size: 14px;
+		line-height: 25px;
+		font-weight: bold;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		text-align: left;
+		color: #8d8aa5;
+	}
+	
+	.wrap {
+		display: flex;
+	}
+	
+	.companies {
+		padding-right: 0px;
+		padding-left: 40px;
+		padding-top: 100px;
+	}
+	
+	.companies_count {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.companies_text {
+		font-size: 12px;
+		font-weight: bold;
+		color: #8d8aa5;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.templates {
+		padding-right: 0px;
+		padding-left: 40px;
+		padding-top: 100px;
+	}
+	
+	.templates_count {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		z-index: 5;
+	}
+	
+	.templates_text {
+		font-size: 12px;
+		font-weight: bold;
+		color: #8d8aa5;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.queries {
+		padding-right: 0px;
+		padding-left: 40px;
+		padding-top: 100px;
+	}
+	
+	.queries_count {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		z-index: 5;
+	}
+	
+	.queries_text {
+		font-size: 12px;
+		font-weight: bold;
+		color: #8d8aa5;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	
+	.picture_1 {
+		position: absolute;
+		top: 150px;
+		padding-left: 50%;
+		
+		border-radius: 8px;
+		width: 536px;
+		height: 453px;
+	}
+	
+	.picture_tint {
+		background: #350235;
+		width: 490px;
+		height: 450px;
+		border-radius: 0px 8px 8px 0px;
+	}
+	
+	.picture {
+		border-radius: 0px 8px 8px 0px;
+		width: 490px;
+		opacity: 0.3;
+		height: 450px;
+	}
+}
+/* Tablet Version */
+
+
+/* Larger Celpon Version */
+@media screen and (max-width: 980px) {
 	* {
 		padding: 0px;
 		margin: 0px;
@@ -155,9 +308,10 @@
 	.side_by_side {
 		display: flex;
 	}
+
 	.text_card {
 		position: absolute;
-		left: 46px;
+		left: 30%;
 		top: 225px;
 		background-color: #1b1938;
 		border-radius: 8px;
@@ -256,7 +410,7 @@
 	.picture_1 {
 		position: absolute;
 		top: 0px;
-		padding-left: 46px;
+		padding-left: 30%;
 		border-radius: 8px;
 		width: 325px;
 		height: 230px;
@@ -278,7 +432,152 @@
 		font-size: 16px;
 		text-align: center;
 		color: white;
-		padding-left: 55px;
+		padding-left: 28%;
+		text-align: center;
+		padding-top: 800px;
+	}
+	.attribution a {
+		color: #944cd2;
+	}
+}
+/* Larger Celpon Version */
+
+
+/* Celpon version */
+
+@media screen and (max-width: 480px) {
+	* {
+		padding: 0px;
+		margin: 0px;
+	}
+	.side_by_side {
+		display: flex;
+	}
+
+	.text_card {
+		position: absolute;
+		left: 5%;
+		top: 225px;
+		background-color: #1b1938;
+		border-radius: 8px;
+		width: 326px;
+		height: 531px;
+		float: left;
+	}
+	.get_insights {
+		padding-right: 40px;
+		padding-left: 40px;
+		padding-top: 50px;
+		font-size: 23px;
+		text-align: center;
+		font-weight: bold;
+		color: white;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	.purple {
+		color: #944cd2;
+	}
+	.description {
+		padding-right: 40px;
+		padding-left: 40px;
+		padding-top: 20px;
+		font-size: 14px;
+		line-height: 25px;
+		font-weight: bold;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		text-align: center;
+		color: #8d8aa5;
+	}
+	.wrap {
+		display: flex;
+	}
+	.companies {
+		padding-right: 40px;
+		padding-left: 125px;
+		padding-top: 35px;
+	}
+	.companies_count {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		text-align: center;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	.companies_text {
+		padding-top: 10px;
+		font-size: 12px;
+		font-weight: bold;
+		color: #8d8aa5;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	.templates {
+		position: absolute;
+		padding-right: 40px;
+		padding-left: 125px;
+		padding-top: 105px;
+	}
+	.templates_count {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		text-align: center;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		z-index: 5;
+	}
+	.templates_text {
+		padding-top: 10px;
+		font-size: 12px;
+		font-weight: bold;
+		color: #8d8aa5;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	.queries {
+		position: absolute;
+		padding-right: 40px;
+		padding-left: 135px;
+		padding-top: 185px;
+	}
+	.queries_count {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		text-align: center;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		z-index: 5;
+	}
+	.queries_text {
+		padding-top: 10px;
+		font-size: 12px;
+		font-weight: bold;
+		color: #8d8aa5;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+	}
+	.picture_1 {
+		position: absolute;
+		top: 0px;
+		padding-left: 5%;
+		border-radius: 8px;
+		width: 325px;
+		height: 230px;
+	}
+	.picture_tint {
+		background: #350235;
+		width: 325px;
+		height: 230px;
+		border-radius: 8px 8px 0px 0px;
+	}
+	.picture {
+		border-radius: 8px 8px 0px 0px;
+		width: 325px;
+		opacity: 0.3;
+		height: 230px;
+	}
+	.attribution {
+		position: absolute;
+		font-size: 16px;
+		text-align: center;
+		color: white;
+		padding-left: 4%;
 		text-align: center;
 		padding-top: 800px;
 	}
