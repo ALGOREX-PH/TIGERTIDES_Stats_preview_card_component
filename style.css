@@ -155,6 +155,10 @@
 	.side_by_side {
 		display: flex;
 	}
+
+	.body{
+		width: 100%;
+	}
 	.text_card {
 		position: absolute;
 		left: 10%;
