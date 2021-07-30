@@ -164,7 +164,7 @@
     
 .background_color_navy{
     background-color: #0c0f22;
-    width: 720px;
+    width: 420px;
     height: 900px;
 }
     
@@ -174,7 +174,7 @@
     
 .text_card{
     position: absolute;
-    left: 196px;
+    left: 76px;
     top: 225px;
     background-color: #1b1938;
     border-radius: 8px;
@@ -287,7 +287,7 @@
 .picture_1{
     position: absolute;
     top: 0px;
-    padding-left: 197px;
+    padding-left: 76px;
     border-radius: 8px;
     width: 325px;
     height: 230px;
