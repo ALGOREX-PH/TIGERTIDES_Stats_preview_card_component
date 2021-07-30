@@ -2,7 +2,9 @@
 	padding: 0px;
 	margin: 0px;
 }
-
+.wrapper{
+    width: 100%;
+}
 .attribution {
 	font-size: 20px;
 	text-align: center;
@@ -152,7 +154,10 @@
 		padding: 0px;
 		margin: 0px;
 	}
-	
+
+	.wrapper{
+		width: 100%;
+	}
 	
 	.attribution {
 		font-size: 20px;
@@ -305,6 +310,10 @@
 		padding: 0px;
 		margin: 0px;
 	}
+	.wrapper{
+		width: 100%;
+	}
+
 	.side_by_side {
 		display: flex;
 	}
@@ -312,7 +321,7 @@
 	.text_card {
 		position: absolute;
 		left: 30%;
-		top: 225px;
+		top: 40%;
 		background-color: #1b1938;
 		border-radius: 8px;
 		width: 326px;
@@ -409,7 +418,7 @@
 	}
 	.picture_1 {
 		position: absolute;
-		top: 0px;
+		top: 28%;
 		padding-left: 30%;
 		border-radius: 8px;
 		width: 325px;
@@ -434,7 +443,7 @@
 		color: white;
 		padding-left: 28%;
 		text-align: center;
-		padding-top: 800px;
+		top: 40%;
 	}
 	.attribution a {
 		color: #944cd2;
@@ -454,6 +463,9 @@
 		display: flex;
 	}
 
+	.wrapper{
+		width: 100%;
+	}
 	.text_card {
 		position: absolute;
 		left: 5%;
