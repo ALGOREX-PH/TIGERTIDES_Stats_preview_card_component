@@ -157,7 +157,7 @@
 	}
 	.text_card {
 		position: absolute;
-		left: 15%;
+		left: 10%;
 		top: 225px;
 		background-color: #1b1938;
 		border-radius: 8px;
@@ -256,7 +256,7 @@
 	.picture_1 {
 		position: absolute;
 		top: 0px;
-		padding-left: 15%;
+		padding-left: 10%;
 		border-radius: 8px;
 		width: 325px;
 		height: 230px;
